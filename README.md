@@ -4,3 +4,8 @@ This is a recreation of Conway's [Game of Life](https://en.wikipedia.org/wiki/Co
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
+To get the app up and running, follow these steps:
+
+1) cd GameofLife
+2) npm install
+3) npm start

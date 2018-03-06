@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 
 import Grid from './components/Grid';
+import Box from './components/Box';
 
 class Main extends Component {
     constructor() {
@@ -16,6 +17,9 @@ class Main extends Component {
         return(
             <div>
                 <h1>The Game of Life</h1>
+                <Buttons 
+                    
+                />
                 <Grid 
 
                 />
