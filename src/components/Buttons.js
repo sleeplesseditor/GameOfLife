@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import '../index.css';
 import { ButtonToolbar, MenuItem, DropdownButton } from 'react-bootstrap';
 
 class Buttons extends Component {
@@ -29,7 +30,7 @@ class Buttons extends Component {
                         Seed
                     </button>
                     <DropdownButton
-                        title="Gride Size"
+                        title="Grid Size"
                         id="size-menu"
                         onSelect={this.handleSelect}
                     >

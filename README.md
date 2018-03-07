@@ -9,3 +9,5 @@ To get the app up and running, follow these steps:
 1) cd GameofLife
 2) npm install
 3) npm start
+
+Currently requires styling alterations, and Boostrap updates.

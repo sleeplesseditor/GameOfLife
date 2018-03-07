@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import { ButtonToolbar, menuItem, DropdownButton } from 'react-bootstrap';
+import 'react-bootstrap';
 
 import Box from './components/Box';
 import Buttons from './components/Buttons';
@@ -15,7 +15,7 @@ const Grid = props => {
     let boxClass = "";
     const rowsArr = props.gridFull.map((rowArr, rowIdx) => 
         rowArr.map((item, colIdx) => {
-            const boxId = `$(rowIdx)_$(colIdx)`;
+            const boxId = `${rowIdx}_${colIdx}`;
 
             boxClass = props.gridFull[rowIdx][colIdx] ? "box on" : "box off";
             return (
@@ -29,7 +29,7 @@ const Grid = props => {
                 />
             );
         })
-        );
+    );
 
     return (
         <div className="grid" style={{ width }}>
