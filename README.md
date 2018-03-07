@@ -10,4 +10,9 @@ To get the app up and running, follow these steps:
 2) npm install
 3) npm start
 
-Currently requires styling alterations, and Boostrap updates.
+![screen shot 2018-03-07 at 09 43 03](https://user-images.githubusercontent.com/25869284/37085107-1ea82422-21ec-11e8-9460-3cf81ec3bb2b.png)
+Main app screen
+
+
+![screen shot 2018-03-07 at 09 43 17](https://user-images.githubusercontent.com/25869284/37085132-2e66fbe0-21ec-11e8-8269-04ee49dc7b60.png)
+Main app screen with grid size dropdown menu
